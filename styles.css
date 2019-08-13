@@ -1,0 +1,65 @@
+body {
+    background: #fff3e0;
+}
+
+.card-panel    {
+    text-align: center;
+    padding-bottom: 20%;
+    background-color: #FF69B4;
+    padding: 50px;
+    margin-top: 10%;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    /*color:  #fff3e0;*/
+    color: #fff;
+}
+
+p, a {
+    color:  #fff;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.number-form {
+    color: #fff;
+}
+
+.input-field input[type=text]:focus {
+ border-bottom: 1px solid #fff;
+ box-shadow: 0 1px 0 0 #fff;
+}
+
+.input-field input[type=text]:focus + label {
+ color: #fff;
+}
+
+.btn {
+    background-color: #000000;
+    color: #fff;
+    width: 50%;
+}
+
+#number-form {
+    width: 50%;
+    height: 40px;
+    font-size: 1em;
+    text-align: center;
+    background-color: #fff3e0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#number-response {
+    margin-top: -20px;
+    margin-bottom: -40px;
+}
+
+#response-text {
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+}
